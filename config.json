@@ -72,6 +72,30 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "interactive-web-pages",
+      "title": "Interactive Web Pages with JavaScript",
+      "description": "Build an interactive quiz with JavaScript, DOM elements, and click events.",
+      "path": "assignments/interactive-web-pages",
+      "dueDate": "2026-10-07",
+      "attachments": [
+        {
+          "name": "Starter HTML",
+          "file": "starter-code.html",
+          "type": "html"
+        },
+        {
+          "name": "Starter CSS",
+          "file": "styles.css",
+          "type": "css"
+        },
+        {
+          "name": "Starter JavaScript",
+          "file": "script.js",
+          "type": "javascript"
+        }
+      ]
     }
   ]
 }

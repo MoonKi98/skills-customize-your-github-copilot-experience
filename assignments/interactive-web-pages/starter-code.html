@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="quiz-app">
+      <header class="page-header">
+        <p class="eyebrow">Quick Quiz</p>
+        <h1>Test your knowledge</h1>
+      </header>
+
+      <section id="quiz-panel" class="quiz-panel" aria-labelledby="question">
+        <div class="quiz-status">
+          <p id="progress">Question 1 of 3</p>
+          <p>Score: <span id="score">0</span></p>
+        </div>
+        <h2 id="question">Your question will appear here</h2>
+        <div id="answer-buttons" class="answer-buttons"></div>
+        <p id="feedback" class="feedback" aria-live="polite"></p>
+        <button id="next-button" class="primary-button" type="button" hidden>
+          Next Question
+        </button>
+      </section>
+
+      <section id="results-panel" class="results-panel" aria-labelledby="results-title" hidden>
+        <h2 id="results-title">Quiz complete</h2>
+        <p id="final-score"></p>
+        <button id="restart-button" class="primary-button" type="button">
+          Play Again
+        </button>
+      </section>
+    </main>
+  </body>
+</html>
